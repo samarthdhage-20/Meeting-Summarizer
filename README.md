@@ -141,11 +141,14 @@ Action Items
 
 ### Dashboard
 
-(Add Screenshot)
+<img width="1777" height="891" alt="image" src="https://github.com/user-attachments/assets/20714e80-2029-43d2-aa79-43729c717a15" />
+
 
 ### Generated Summary
 
-(Add Screenshot)
+<img width="852" height="645" alt="image" src="https://github.com/user-attachments/assets/9cdc02e3-6fdf-484f-8af7-fbd8a11cc31c" />
+
+<img width="936" height="457" alt="image" src="https://github.com/user-attachments/assets/315ec0f9-a5c6-42da-a161-6d76dd7bc33a" />
 
 ---
 
