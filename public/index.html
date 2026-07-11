@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Meeting Summarizer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header>
+
+<div class="logo">
+
+<i class="fa-solid fa-microphone-lines"></i>
+
+AI Meeting Summarizer
+
+</div>
+
+<div class="status">
+
+<span class="dot"></span>
+
+Groq AI Online
+
+</div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<h1>
+
+Transform Meetings into Actionable Insights
+
+</h1>
+
+<p>
+
+AI Powered Meeting Intelligence using
+
+<strong>Groq Whisper</strong>
+
++
+
+<strong>Llama 3.3</strong>
+
+</p>
+
+</section>
+
+<!-- ================= MAIN ================= -->
+
+<div class="container">
+
+<!-- Upload Card -->
+
+<div class="upload-card">
+
+<h2>
+
+<i class="fa-solid fa-cloud-arrow-up"></i>
+
+Upload Meeting Recording
+
+</h2>
+
+<div class="upload-box">
+
+<input
+type="file"
+id="audioFile"
+accept="audio/*">
+
+<p id="selectedFile">
+
+No file selected
+
+</p>
+
+<p class="supported">
+
+Supported:
+
+MP3 • WAV • M4A
+
+</p>
+
+<button id="uploadBtn">
+
+<i class="fa-solid fa-wand-magic-sparkles"></i>
+
+Generate AI Summary
+
+</button>
+
+</div>
+
+<div id="status"></div>
+
+</div>
+
+<!-- Loading -->
+
+<div id="loading">
+
+<div class="loader"></div>
+
+<h3>
+
+Processing Meeting...
+
+</h3>
+
+<div class="timeline">
+
+<div class="step">
+
+<span class="circle active"></span>
+
+Uploading
+
+</div>
+
+<div class="step">
+
+<span class="circle"></span>
+
+Transcribing
+
+</div>
+
+<div class="step">
+
+<span class="circle"></span>
+
+Summarizing
+
+</div>
+
+<div class="step">
+
+<span class="circle"></span>
+
+Preparing Report
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Statistics -->
+
+<div class="stats">
+
+<div class="stat-card">
+
+<i class="fa-solid fa-file-lines"></i>
+
+<h2 id="wordCount">
+
+0
+
+</h2>
+
+<p>
+
+Words
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fa-solid fa-list-check"></i>
+
+<h2 id="decisionCount">
+
+0
+
+</h2>
+
+<p>
+
+Decisions
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fa-solid fa-clipboard-list"></i>
+
+<h2 id="taskCount">
+
+0
+
+</h2>
+
+<p>
+
+Tasks
+
+</p>
+
+</div>
+
+<div class="stat-card">
+
+<i class="fa-solid fa-robot"></i>
+
+<h2>
+
+Groq
+
+</h2>
+
+<p>
+
+AI Engine
+
+</p>
+
+</div>
+
+</div>
+
+<!-- Result Area -->
+
+<div id="summaryText">
+
+</div>
+
+<!-- Buttons -->
+
+<div class="bottom-buttons">
+
+<button id="copyBtn">
+
+<i class="fa-solid fa-copy"></i>
+
+Copy Summary
+
+</button>
+
+<button id="downloadBtn">
+
+<i class="fa-solid fa-file-pdf"></i>
+
+Download Summary
+</button>
+
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
