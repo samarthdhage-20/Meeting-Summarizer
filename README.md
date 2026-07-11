@@ -7,7 +7,7 @@ The application converts meeting audio into an accurate transcript and automatic
 - Executive Summary
 - Key Decisions
 - Action Items
-
+Video Link- https://drive.google.com/file/d/1931gWVD75wwT3M-WQ0wUtN_2OmLvF28I/view?usp=sharing
 ---
 
 ## 🚀 Features
